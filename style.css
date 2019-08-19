@@ -1,0 +1,23 @@
+/*
+Theme Name: Sonno Landing Page WordPress Theme
+Theme URI: http://themesquared.com/sonno/
+Author: ThemeSquared
+Author URI: http://themeforest.net/user/theme-squared/portfolio
+Description: Sonno is a Powerful, multi purpose, and responsive bootstrap WordPress landing page Theme. This theme is very easy to customize with great code structure, very suitable for marketing business or personal website.
+Version: 1.2
+License: WordPress theme is comprised of two parts: (1) The PHP code is licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://codex.wordpress.org/GPL (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://wiki.envato.com/support/legal-terms/licensing-terms/
+License URI: license.txt
+Tags: agency, blog, bootstrap template, business, clean, corporate, landing page, magazine, marketing, mobile app, modern, one page, responsive, startup
+Text Domain: sonno
+*/
+ 
+
+.wp-caption { }
+.wp-caption-text { }
+.sticky { }
+.gallery-caption { }
+.bypostauthor { }
+.alignright { }
+.aligncenter { }
+.alignleft { }
+.screen-reader-text{ }

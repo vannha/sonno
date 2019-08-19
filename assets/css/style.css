@@ -1867,13 +1867,12 @@ aside .widget {
 .admin-bar .navbar-fixed-top {
 	top: 32px;
 }
-#navbar:blank{
-	opacity: 0;
-}
 @media (min-width: 992px){
 	.navbar .container{
 		display: flex;
 		flex-wrap: wrap;
+		align-items: center;
+		min-height: 50px;
 	} 
 	.navbar .container>.navbar-header{
 		display: flex;

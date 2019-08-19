@@ -1867,6 +1867,9 @@ aside .widget {
 .admin-bar .navbar-fixed-top {
 	top: 32px;
 }
+#navbar:blank{
+	opacity: 0;
+}
 @media (min-width: 992px){
 	.navbar .container{
 		display: flex;

@@ -18,6 +18,7 @@
 </head>
 <body <?php body_class(); ?>>
 <?php 
+die('aaaaaaaaaaaaaaaaa');
     spyropress_wrapper(); 
         spyropress_before_header(); 
         if( !get_setting( 'page-loader' ) ):

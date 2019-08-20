@@ -877,7 +877,8 @@ article {
 	padding-left: 0;
 }
 .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt, .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta{
-	
+	margin-left: 15px;
+	padding-left: 15px;
 }
 div.aligncenter{
 	text-align: center;

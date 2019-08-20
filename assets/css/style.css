@@ -169,9 +169,8 @@ pre {
 	border: none;
     padding-bottom: 58%;
 }
-.wp-block-embed .video-container,
-.wp-block-embed .map-container,
-.wp-block-embed .embed-container{
+.wp-block-embed-twitter .video-container,
+.wp-block-embed-facebook .video-container{
 	padding-bottom: 0;
 }
 .embed-container iframe,

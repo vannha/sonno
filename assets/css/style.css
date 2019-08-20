@@ -879,6 +879,9 @@ article {
 .wp-block-latest-comments .wp-block-latest-comments__comment{
 	border-bottom: 1px solid #c9cfd1;
 }
+.wp-block-latest-comments .wp-block-latest-comments__comment:last-child{
+	border-bottom: none;
+}
 .wp-block-latest-comments .wp-block-latest-comments__comment article{
 	margin-bottom: 0;
 	padding-bottom: 0;

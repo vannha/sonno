@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="1468" column="26" selection-start-line="1468" selection-start-column="26" selection-end-line="1468" selection-end-column="26" />
+            <state relative-caret-position="789">
+              <caret line="2123" column="1" selection-start-line="2123" selection-start-column="1" selection-end-line="2123" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -92,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="19" />
     <option name="y" value="62" />
     <option name="width" value="1386" />
@@ -168,12 +168,12 @@
       <option name="presentableId" value="Default" />
       <updated>1566210302302</updated>
       <workItem from="1566210304128" duration="804000" />
-      <workItem from="1566263360729" duration="3418000" />
+      <workItem from="1566263360729" duration="3486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4222000" />
+    <option name="totallyTimeSpent" value="4290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -243,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="1468" column="26" selection-start-line="1468" selection-start-column="26" selection-end-line="1468" selection-end-column="26" />
+        <state relative-caret-position="789">
+          <caret line="2123" column="1" selection-start-line="2123" selection-start-column="1" selection-end-line="2123" selection-end-column="1" />
         </state>
       </provider>
     </entry>

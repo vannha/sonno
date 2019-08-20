@@ -1459,16 +1459,7 @@ div.loading-invisible {
 
 /* 14. Responsive Styles
 =========================== */
-@media all and (max-width: 1270px){
-	.sticky .post-meta{
-		top: 0;
-		left: 0px;
-		width: 80px;
-		height: 99px;
-		z-index: 44;
-		padding: 20px 0px;
-	}
-}
+
 @media (min-width: 1200px) {
 
 	.navbar-nav li a {
@@ -2119,5 +2110,15 @@ aside .widget {
 	}
 	.comment-list .children{
 	   padding-left: 15px;
+	}
+}
+@media all and (max-width: 1270px){
+	.sticky .post-meta{
+		top: 0;
+		left: 0px;
+		width: 80px;
+		height: 99px;
+		z-index: 44;
+		padding: 20px 0px;
 	}
 }

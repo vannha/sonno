@@ -30,7 +30,7 @@
                     
                     // Page Comments 
                     if( !isset( $spyropress_options['comments'] ) && empty( $spyropress_options['comments'] ) ){
-                    	echo '<div class="container section">';
+                    	echo '<div class="container">';
                         	comments_template( '', true );
                     	echo '</div>';
                     }

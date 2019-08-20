@@ -876,12 +876,14 @@ article {
 .wp-block-latest-comments{
 	padding-left: 0;
 }
+.wp-block-latest-comments .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta{
+	padding: 50px 20px;
+}
 .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt{
 	margin-left: 15px;
 }
 .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta{
 	margin-left: 15px;
-	padding: 50px 20px;
 }
 div.aligncenter{
 	text-align: center;

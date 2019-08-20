@@ -1859,7 +1859,7 @@ aside .widget {
 .sticky  .post-item {
 	position: relative;
 	margin: 0 !important;
-	padding: 75px 30px 50px 115px;
+	padding: 75px 30px 50px 115px.wp-caption;
 	background: #fff;
 	display: table;
 	z-index: 11;
@@ -2060,7 +2060,7 @@ aside .widget {
 
 .wp-caption {
 	max-width: 100%;
-	width: auto !important;
+	margin: auto;
 }
 
 .wp-caption img {

@@ -873,6 +873,9 @@ article {
 .post-meta > .comment > a {
 	color: #fff;
 }
+.wp-block-latest-comments{
+	list-style: none;
+}
 div.aligncenter{
 	text-align: center;
 }

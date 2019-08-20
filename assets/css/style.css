@@ -1138,6 +1138,9 @@ ul.ads li {
 .comment-form div {
 	margin-bottom: 20px;
 }
+.comment-list{
+	margin-top: 25px;
+}
 .page .comment-wrapper{
 	padding-top: 60px;
 }

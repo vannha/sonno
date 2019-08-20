@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="183eb1ad-9d69-4dfe-baa9-d1a3389774aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonno.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="2067" column="22" selection-start-line="2067" selection-start-column="22" selection-end-line="2067" selection-end-column="22" />
+            <state relative-caret-position="508">
+              <caret line="1141" column="21" selection-start-line="1141" selection-start-column="21" selection-end-line="1141" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -38,7 +33,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>alt=&quot;&quot;</find>
       <find>font-awesome.min</find>
       <find>style.css</find>
       <find>overwrite.css</find>
@@ -68,6 +62,7 @@
       <find>spyropress_query_generator</find>
       <find>spyropress_type</find>
       <find>spyropress_title</find>
+      <find>comment-list</find>
     </findStrings>
     <replaceStrings>
       <replace>, 'sallira'</replace>
@@ -233,12 +228,12 @@
       <option name="presentableId" value="Default" />
       <updated>1566210302302</updated>
       <workItem from="1566210304128" duration="804000" />
-      <workItem from="1566263360729" duration="21580000" />
+      <workItem from="1566263360729" duration="21714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22384000" />
+    <option name="totallyTimeSpent" value="22518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -627,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="2067" column="22" selection-start-line="2067" selection-start-column="22" selection-end-line="2067" selection-end-column="22" />
+        <state relative-caret-position="508">
+          <caret line="1141" column="21" selection-start-line="1141" selection-start-column="21" selection-end-line="1141" selection-end-column="21" />
         </state>
       </provider>
     </entry>

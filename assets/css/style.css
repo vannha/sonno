@@ -876,6 +876,9 @@ article {
 .wp-block-latest-comments{
 	padding-left: 0;
 }
+.wp-block-latest-comments .wp-block-latest-comments__comment article{
+	padding-left: 0;
+}
 .wp-block-latest-comments .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta{
 	padding: 50px 20px;
 }

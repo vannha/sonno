@@ -89,7 +89,8 @@ div.pp_default .pp_contract:hover,
 .tagcloud a:focus,
 .demo-panel h6,
 a.openpanel,
-.post-article form.post-password-form input[type="submit"]{
+.post-article form.post-password-form input[type="submit"],
+.pager li.current > span{
 	background-color:#df2626;
 }
 

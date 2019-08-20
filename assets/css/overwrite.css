@@ -338,7 +338,8 @@ Pagination
 .pager li > a:active,
 .pager li > span:hover,
 .pager li > span:focus,
-.pager li > span:active{
+.pager li > span:active,
+.pager li.current > span{
 	color:#fff;
 }
 

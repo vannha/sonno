@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="183eb1ad-9d69-4dfe-baa9-d1a3389774aa" name="Default Changelist" comment="" />
+    <list default="true" id="183eb1ad-9d69-4dfe-baa9-d1a3389774aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="881" column="17" selection-start-line="881" selection-start-column="17" selection-end-line="881" selection-end-column="17" />
+            <state relative-caret-position="371">
+              <caret line="879" column="36" selection-start-line="879" selection-start-column="36" selection-end-line="879" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -165,12 +167,12 @@
       <option name="presentableId" value="Default" />
       <updated>1566210302302</updated>
       <workItem from="1566210304128" duration="804000" />
-      <workItem from="1566263360729" duration="2202000" />
+      <workItem from="1566263360729" duration="2236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3006000" />
+    <option name="totallyTimeSpent" value="3040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -233,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="881" column="17" selection-start-line="881" selection-start-column="17" selection-end-line="881" selection-end-column="17" />
+        <state relative-caret-position="371">
+          <caret line="879" column="36" selection-start-line="879" selection-start-column="36" selection-end-line="879" selection-end-column="36" />
         </state>
       </provider>
     </entry>

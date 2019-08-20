@@ -169,7 +169,11 @@ pre {
 	border: none;
     padding-bottom: 58%;
 }
-
+.wp-block-embed .video-container,
+.wp-block-embed .map-container,
+.wp-block-embed .embed-container{
+	padding-bottom: 0;
+}
 .embed-container iframe,
 .embed-container object,
 .embed-container embed,

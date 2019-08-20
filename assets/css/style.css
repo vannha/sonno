@@ -2062,7 +2062,9 @@ aside .widget {
 	max-width: 100%;
 	margin: auto;
 }
-
+.wp-caption.alignleft{
+	margin-left: 10px;
+}
 .wp-caption img {
 	max-width: 100%;
 }

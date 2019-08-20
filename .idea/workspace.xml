@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="2123" column="1" selection-start-line="2123" selection-start-column="1" selection-end-line="2123" selection-end-column="1" />
+            <state relative-caret-position="645">
+              <caret line="2117" column="19" selection-start-line="2117" selection-start-column="19" selection-end-line="2117" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -92,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="19" />
     <option name="y" value="62" />
     <option name="width" value="1386" />
@@ -168,12 +168,12 @@
       <option name="presentableId" value="Default" />
       <updated>1566210302302</updated>
       <workItem from="1566210304128" duration="804000" />
-      <workItem from="1566263360729" duration="3486000" />
+      <workItem from="1566263360729" duration="3612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4290000" />
+    <option name="totallyTimeSpent" value="4416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -243,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="2123" column="1" selection-start-line="2123" selection-start-column="1" selection-end-line="2123" selection-end-column="1" />
+        <state relative-caret-position="645">
+          <caret line="2117" column="19" selection-start-line="2117" selection-start-column="19" selection-end-line="2117" selection-end-column="19" />
         </state>
       </provider>
     </entry>

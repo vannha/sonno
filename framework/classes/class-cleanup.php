@@ -69,8 +69,8 @@ class SpyropressCleanup {
                 'year_link',
                 'tag_link',
                 'the_author_posts_link',
-                'script_loader_src',
-                'style_loader_src'
+                //'script_loader_src',
+                //'style_loader_src'
             );
             
             foreach ( $relative_url_filters as $filter ) {

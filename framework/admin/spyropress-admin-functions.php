@@ -619,7 +619,7 @@ function spyropress_compile_dynamic_styles( $settings, $values, $meta = false ) 
     
     // no dir
     if( !$wp_filesystem->exists( dynamic_css_path() ) ) {
-        $wp_filesystem->mkdir( untrailingslashit( dynamic_css_path() ) );
+        wp_mkdir_p( untrailingslashit( dynamic_css_path() ) );
     }
     
     if ( !$wp_filesystem->is_readable( $less_file ) ) return;
@@ -686,7 +686,7 @@ function spyropress_save_dynamic_file( $insertion ) {
     
     // no dir
     if( !$wp_filesystem->exists( dynamic_css_path() ) ) {
-        $wp_filesystem->mkdir( untrailingslashit( dynamic_css_path() ) );
+        wp_mkdir_p( untrailingslashit( dynamic_css_path() ) );
     }
     
     if ( !$wp_filesystem->is_readable( $less_file ) && !$wp_filesystem->is_writable( $css_file ) ) {

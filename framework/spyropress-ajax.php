@@ -78,7 +78,7 @@ function spyropress_reset_options_ajax() {
     do_action( 'spyropress_reset_' . $_POST['setting_panel_name'] );
 
     // Refresh page
-    echo 'window.location = "' . $_SERVER['HTTP_REFERER'] . '";';
+    echo 'window.location = "' . wp_get_referer() . '";';
 
     // Exit
     die();
@@ -116,7 +116,7 @@ function spyropress_import_options_ajax() {
     do_action( 'spyropress_import_' . $_POST['setting_panel_name'] );
 
     // Refresh page
-    echo 'window.location = "' . $_SERVER['HTTP_REFERER'] . '";';
+    echo 'window.location = "' . wp_get_referer() . '";';
 
     // Exit
     die();
@@ -168,7 +168,7 @@ function spyropress_skin_generator( ) {
     }
     
     // Refresh page
-    echo 'window.location = "' . $_SERVER['HTTP_REFERER'] . '";';
+    echo 'window.location = "' . wp_get_referer() . '";';
 
     // Exit
     die();
@@ -194,7 +194,7 @@ function spyropress_skin_remove( ) {
     update_option( '_spyropress_porto_skins', $skins );
     
     // Refresh page
-    echo 'window.location = "' . $_SERVER['HTTP_REFERER'] . '";';
+    echo 'window.location = "' . wp_get_referer() . '";';
 
     // Exit
     die();

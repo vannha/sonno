@@ -1,9 +1,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sonno Landing Page WordPress Theme\n"
-"POT-Creation-Date: 2019-07-16 13:49+0700\n"
-"PO-Revision-Date: 2019-07-16 13:49+0700\n"
+"Project-Id-Version: Sonno\n"
+"POT-Creation-Date: 2019-11-19 09:25+0700\n"
+"PO-Revision-Date: 2019-11-19 09:25+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -631,8 +631,8 @@ msgstr ""
 #: framework/builder/modules/icon-teaser/icon-teaser.php:61
 #: framework/builder/modules/tabs/tabs.php:31
 #: includes/spyropress-settings-theme.php:133
-#: includes/spyropress-settings-theme.php:436 includes/widgets/ads/ads.php:28
-#: includes/widgets/recent-posts/recent-posts.php:28
+#: includes/spyropress-settings-theme.php:436 includes/widgets/ads/ads.php:31
+#: includes/widgets/recent-posts/recent-posts.php:31
 msgid "Title"
 msgstr ""
 
@@ -695,7 +695,7 @@ msgid "Display a list of posts"
 msgstr ""
 
 #: framework/builder/modules/blog/blog.php:19
-#: framework/widgets/spyropress-widget-init.php:328
+#: framework/widgets/spyropress-widget-init.php:351
 #: includes/spyropress-settings-theme.php:375
 msgid "Blog"
 msgstr ""
@@ -705,7 +705,7 @@ msgid "Number of items per page"
 msgstr ""
 
 #: framework/builder/modules/blog/blog.php:32
-#: framework/widgets/spyropress-widget-init.php:304
+#: framework/widgets/spyropress-widget-init.php:327
 #: includes/spyropress-settings-theme.php:383
 msgid "Category"
 msgstr ""
@@ -852,7 +852,7 @@ msgid "Slider Slides"
 msgstr ""
 
 #: framework/builder/modules/home-section/home-section.php:98
-#: includes/widgets/ads/ads.php:40
+#: includes/widgets/ads/ads.php:43
 msgid "Image"
 msgstr ""
 
@@ -1460,12 +1460,12 @@ msgid "Error 404"
 msgstr ""
 
 #: framework/builder/spyropress-builder-init.php:191
-#: framework/widgets/spyropress-widget-init.php:276
+#: framework/widgets/spyropress-widget-init.php:299
 msgid "Home Page"
 msgstr ""
 
 #: framework/builder/spyropress-builder-init.php:192
-#: framework/widgets/spyropress-widget-init.php:280
+#: framework/widgets/spyropress-widget-init.php:303
 msgid "Front Page"
 msgstr ""
 
@@ -2090,7 +2090,7 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: framework/spyropress-ajax.php:70 framework/spyropress-ajax.php:101
+#: framework/spyropress-ajax.php:74 framework/spyropress-ajax.php:105
 msgid "false"
 msgstr ""
 
@@ -2126,11 +2126,11 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: framework/spyropress.php:371
+#: framework/spyropress.php:388
 msgid "Footer "
 msgstr ""
 
-#: framework/spyropress.php:372
+#: framework/spyropress.php:389
 msgid "A widget area loaded in the footer of the site."
 msgstr ""
 
@@ -2231,56 +2231,56 @@ msgstr ""
 msgid "Social Google Plus"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:272
+#: framework/widgets/spyropress-widget-init.php:295
 msgid "All"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:284
+#: framework/widgets/spyropress-widget-init.php:307
 msgid "Sticky Post"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:288
+#: framework/widgets/spyropress-widget-init.php:311
 msgid "Single Post"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:292
+#: framework/widgets/spyropress-widget-init.php:315
 msgid "Page"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:296
+#: framework/widgets/spyropress-widget-init.php:319
 msgid "Child of Page ID"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:300
+#: framework/widgets/spyropress-widget-init.php:323
 msgid "Post Type"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:308
+#: framework/widgets/spyropress-widget-init.php:331
 msgid "Post in Category"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:312
+#: framework/widgets/spyropress-widget-init.php:335
 #: includes/spyropress-settings-theme.php:391
 msgid "Tag"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:316
+#: framework/widgets/spyropress-widget-init.php:339
 msgid "Post has Tag"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:320
+#: framework/widgets/spyropress-widget-init.php:343
 msgid "Taxonomy"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:324
+#: framework/widgets/spyropress-widget-init.php:347
 msgid "Post Type Archive"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:332
+#: framework/widgets/spyropress-widget-init.php:355
 msgid "Search Results Page"
 msgstr ""
 
-#: framework/widgets/spyropress-widget-init.php:336
+#: framework/widgets/spyropress-widget-init.php:359
 msgid "QueryString"
 msgstr ""
 
@@ -2376,6 +2376,17 @@ msgstr ""
 
 #: functions.php:160 functions.php:161
 msgid "Theme Options"
+msgstr ""
+
+#: functions.php:195
+msgid "Custom Post Types plugin using is out of date."
+msgstr ""
+
+#: functions.php:199
+#, php-format
+msgid ""
+"<strong><a href=\"%s\">Click here</a></strong> to Deactivate and then Delete "
+"Custom Post Types to update it to latest version"
 msgstr ""
 
 #: header.php:34
@@ -2913,31 +2924,31 @@ msgstr ""
 msgid "Support"
 msgstr ""
 
-#: includes/widgets/ads/ads.php:21
+#: includes/widgets/ads/ads.php:24
 msgid "Display Ads Images in siderbr."
 msgstr ""
 
-#: includes/widgets/ads/ads.php:23
+#: includes/widgets/ads/ads.php:26
 msgid "ThemeSquared: Ads Images"
 msgstr ""
 
-#: includes/widgets/ads/ads.php:33
+#: includes/widgets/ads/ads.php:36
 msgid "Ads"
 msgstr ""
 
-#: includes/widgets/ads/ads.php:46
+#: includes/widgets/ads/ads.php:49
 msgid "Url / Link"
 msgstr ""
 
-#: includes/widgets/recent-posts/recent-posts.php:21
+#: includes/widgets/recent-posts/recent-posts.php:24
 msgid "The most recent posts on your site."
 msgstr ""
 
-#: includes/widgets/recent-posts/recent-posts.php:23
+#: includes/widgets/recent-posts/recent-posts.php:26
 msgid "ThemeSquared: Recent Posts"
 msgstr ""
 
-#: includes/widgets/recent-posts/recent-posts.php:33
+#: includes/widgets/recent-posts/recent-posts.php:36
 msgid "Number of posts to show:"
 msgstr ""
 
@@ -3004,7 +3015,7 @@ msgid "Y"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "Sonno Landing Page WordPress Theme"
+msgid "Sonno"
 msgstr ""
 
 #. Theme URI of the plugin/theme

@@ -13,7 +13,7 @@
 
 /** Improved Excerpt **/
 if ( function_exists( 'remove_cpt_filter' ) ) {
-	remove_filter( 'get_the_excerpt', 'wp_trim_excerpt' );
+	remove_cpt_filter( 'get_the_excerpt', 'wp_trim_excerpt' );
 }
 add_filter( 'get_the_excerpt', 'spyropress_get_excerpt' );
 

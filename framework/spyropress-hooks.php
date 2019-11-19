@@ -12,7 +12,9 @@
 /** WordPress Hooks ********************************************************/
 
 /** Improved Excerpt **/
-remove_filter( 'get_the_excerpt', 'wp_trim_excerpt' );
+if ( function_exists( 'remove_cpt_filter' ) ) {
+	remove_filter( 'get_the_excerpt', 'wp_trim_excerpt' );
+}
 add_filter( 'get_the_excerpt', 'spyropress_get_excerpt' );
 
 /** Post Hooks **/

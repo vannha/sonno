@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="183eb1ad-9d69-4dfe-baa9-d1a3389774aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/widgets/spyropress-widget-init.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/widgets/spyropress-widget-init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/widgets/ads/ads.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/widgets/ads/ads.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/widgets/recent-posts/recent-posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/widgets/recent-posts/recent-posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/spyropress.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/spyropress.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +81,7 @@
       <workItem from="1566210304128" duration="804000" />
       <workItem from="1566263360729" duration="23263000" />
       <workItem from="1574070840940" duration="736000" />
-      <workItem from="1574125631161" duration="3350000" />
+      <workItem from="1574125631161" duration="3401000" />
     </task>
     <servers />
   </component>

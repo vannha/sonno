@@ -174,3 +174,56 @@ function sonno_html($html){
 }
 // disable for posts
 add_filter( 'use_block_editor_for_post', '__return_false', 100 );
+
+/* Start check ver CPT*/
+function sonno_check_plugin_version($class, $plugin_file_path){
+	if( !function_exists('get_plugin_data') ){
+		require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+	}
+	$plugin = class_exists($class) ? get_plugin_data(WP_PLUGIN_DIR.'/'.$plugin_file_path) : ['Version'=> '0'];
+	$plugin['Version'] = str_replace('.', '', $plugin['Version']);
+	return (int)$plugin['Version'];
+}
+function sonno_admin_notice(){
+	$cpt_version = sonno_check_plugin_version('SpyropressCustomPostType','cpt/spyropress-core.php');
+	if(class_exists('SpyropressCustomPostType') && $cpt_version < 101){
+		?>
+		<div class="notice notice-error cpt-notice">
+			<?php  ?>
+			<p>
+				<strong>
+					<?php echo esc_html__('Custom Post Types plugin using is out of date.', 'sonno');?>
+				</strong>
+			</p>
+			<p>
+				<?php printf(__('<strong><a href="%s">Click here</a></strong> to Deactivate and then Delete Custom Post Types to update it to latest version','sonno'),
+					esc_url(admin_url('plugins.php'))
+				);
+				?>
+			</p>
+		</div>
+		<?php
+	}
+}
+add_action('admin_notices', 'sonno_admin_notice', 0);
+
+/**
+ * Check framework/sytem plugin version to compatible with theme version
+ * Action Deactive plugin
+ * @since 2.0
+ */
+function deactivate_plugin_conditional() {
+	$cpt_version = sonno_check_plugin_version('SpyropressCustomPostType', 'cpt/spyropress-core.php');
+	if ( class_exists('SpyropressCustomPostType') && $cpt_version < 101 ) {
+		deactivate_plugins('cpt/spyropress-core.php');
+	}
+}
+add_action( 'admin_init', 'deactivate_plugin_conditional' );
+
+/**
+ * Add Admin style
+ */
+add_action('admin_enqueue',function(){
+	$admin_style = '<style>.cpt-notice strong{font-size: 30px;color: red;}</style>';
+	return $admin_style;
+});

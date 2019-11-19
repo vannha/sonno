@@ -112,7 +112,7 @@ function spyropress_the_builder_module( $widget_id, $widget ) {
 
     $widget_type = $widget['type'];
     $instance = $widget['instance'];
-	var_dump($widget_type);
+
     if( 'SpyropressBuilderModule' == get_parent_class( $widget_type ) )
         $widget_obj = $spyropress_builder->modules->get_module( $widget_type );
     else

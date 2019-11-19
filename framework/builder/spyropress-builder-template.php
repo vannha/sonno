@@ -109,7 +109,7 @@ function spyropress_get_the_builder_content( $post_ID = '' ) {
  */
 function spyropress_the_builder_module( $widget_id, $widget ) {
     global $wp_widget_factory, $spyropress_builder;
-
+var_dump($widget_type);
     $widget_type = $widget['type'];
     $instance = $widget['instance'];
 

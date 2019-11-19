@@ -317,7 +317,7 @@ if ( ! class_exists( 'SpyropressBuilder' ) ) {
                     }
                     else
                         $page_builder = $spyropress->custom_post_types[$post_type];
-                    $page_builder->add_meta_box( esc_html__( 'SpyroPress: Layout Selection', 'sonno' ),
+                    $page_builder->add_cpt_meta_box( esc_html__( 'SpyroPress: Layout Selection', 'sonno' ),
                         '', $layout_meta, array(
                         'build_tabs' => false,
                         'context' => 'side',

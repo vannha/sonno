@@ -99,7 +99,7 @@ function get_option_value( $item_id, $default, $echo, $is_array, $offset ) {
     // echo content
     if ( ! $echo ) return $content;
 
-    echo $content;
+    echo ''.$content;
 }
 
 /**

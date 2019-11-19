@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="183eb1ad-9d69-4dfe-baa9-d1a3389774aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/admin/spyropress-admin-init.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/admin/spyropress-admin-init.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +44,6 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="279" />
-    <option name="y" value="301" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
-  </component>
   <component name="ProjectId" id="1TmglpHUoWJjsft3fvB9nwoVu6O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -86,7 +81,7 @@
       <workItem from="1566210304128" duration="804000" />
       <workItem from="1566263360729" duration="23263000" />
       <workItem from="1574070840940" duration="736000" />
-      <workItem from="1574125631161" duration="726000" />
+      <workItem from="1574125631161" duration="907000" />
     </task>
     <servers />
   </component>

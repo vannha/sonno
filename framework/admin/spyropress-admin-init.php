@@ -130,7 +130,7 @@ class SpyropressAdmin {
         global $current_screen;
         
         // Register scripts using wp_register_script( $handle, $src, $deps, $ver, $in_footer );
-        wp_register_script( 'webfont-loader', 'http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js', false, '1.0', false );
+        wp_register_script( 'webfont-loader', framework_assets_js() . 'webfont.js', false, '1.0', false );
         wp_register_script( 'spyropress-admin', framework_assets_js() . 'spyropress-admin.js', false, '1.0', true );
 
         $panel_deps = array(

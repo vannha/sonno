@@ -38,7 +38,7 @@ function token_repalce( $tmpl, $values ) {
 function get_setting( $item_id = '', $default = '', $is_array = false, $offset = -1 ) {
     return get_option_value( $item_id, $default, false, $is_array, $offset );
 }
-function get_setting_print( $item_id = '', $default = '', $is_array = false, $offset = -1 ) {
+function get_setting_value( $item_id = '', $default = '', $is_array = false, $offset = -1 ) {
     get_option_value( $item_id, $default, true, $is_array, $offset );
 }
 function get_setting_array( $item_id = '', $default = '', $echo = false, $offset = -1 ) {

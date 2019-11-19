@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="183eb1ad-9d69-4dfe-baa9-d1a3389774aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/admin/spyropress-admin-init.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/admin/spyropress-admin-init.php" afterDir="false" />
-    </list>
+    <list default="true" id="183eb1ad-9d69-4dfe-baa9-d1a3389774aa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <workItem from="1566210304128" duration="804000" />
       <workItem from="1566263360729" duration="23263000" />
       <workItem from="1574070840940" duration="736000" />
-      <workItem from="1574125631161" duration="907000" />
+      <workItem from="1574125631161" duration="1198000" />
     </task>
     <servers />
   </component>

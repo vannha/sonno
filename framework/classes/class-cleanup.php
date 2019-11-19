@@ -78,11 +78,13 @@ class SpyropressCleanup {
             }
         }
     }
-    
+	private function get_current_domain() {
+		return parse_url( get_home_url( get_current_blog_id() ), PHP_URL_HOST );
+	}
     function root_relative_url( $input ) {
         preg_match('|https?://([^/]+)(/.*)|i', $input, $matches);
         
-        if ( isset( $matches[1] ) && isset( $matches[2] ) && $matches[1] === $_SERVER['SERVER_NAME'] ) {
+        if ( isset( $matches[1] ) && isset( $matches[2] ) && $matches[1] === $this->get_current_domain() ) {
             return wp_make_link_relative($input);
         }
         

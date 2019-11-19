@@ -43,7 +43,7 @@ function sonno_update_theme_option($request,$folder){
    global $spyropress;
    $option_file =      trailingslashit($folder).'option.php';
    if( !$option_file || !file_exists( $option_file ) ) return;
-   @include_once( $option_file );
+   include_once( $option_file );
    $data = unserialize(base64_decode($dummy_data));
 
    //theme_settings

@@ -11,7 +11,7 @@ function spyropress_setup_theme() {
 
     $spyropress->internal_name = 'sonno';
     $spyropress->theme_name = 'Sonno';
-    $spyropress->theme_version = '1.0.6';
+    $spyropress->theme_version = '1.2';
 
     $spyropress->framework = 'bs3';
     $spyropress->grid_columns = 12;

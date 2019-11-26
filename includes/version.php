@@ -5,7 +5,7 @@
  *
  * Dont Mess with it.
  */
-add_action( 'before_spyropress_core_includes', 'spyropress_setup_theme' );
+//add_action( 'before_spyropress_core_includes', 'spyropress_setup_theme' );
 function spyropress_setup_theme() {
     global $spyropress;
 

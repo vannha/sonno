@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="183eb1ad-9d69-4dfe-baa9-d1a3389774aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/spyropress.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/spyropress.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/version.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <workItem from="1574125631161" duration="5743000" />
       <workItem from="1574135702718" duration="2254000" />
       <workItem from="1574298549551" duration="944000" />
-      <workItem from="1574733747338" duration="409000" />
+      <workItem from="1574733747338" duration="445000" />
     </task>
     <servers />
   </component>

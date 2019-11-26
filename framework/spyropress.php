@@ -168,7 +168,7 @@ class Spyropress {
 	/** Loads the framework files **/
 	function spyropress_includes() {
 
-		do_action( 'before_spyropress_core_includes' );
+		//do_action( 'before_spyropress_core_includes' );
 
 		/** Core **************************************************************/
 

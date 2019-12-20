@@ -326,10 +326,10 @@
         scrollAnimate();
         $('.internal > a').on('click', function(event) {
             event.preventDefault();
+            console.log( $('body').find($(this).attr('href')) );
             var $anchor = $(this),
                 $section = $($anchor.attr('href')).offset().top,
                 $position = $section - $offset_section;
-            console.log( $('body').find($anchor.attr('href')) );
             $('html, body').stop().animate({
                 scrollTop: $position
             }, 1500, 'easeInOutExpo');

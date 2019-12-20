@@ -326,7 +326,7 @@
         scrollAnimate();
         $('.internal > a').on('click', function(event) {
             event.preventDefault();
-            console.log( $('body').find($(this).attr('href')) );
+            console.log( $('body').find($(this).attr('href')).length );
             var $anchor = $(this),
                 $section = $($anchor.attr('href')).offset().top,
                 $position = $section - $offset_section;

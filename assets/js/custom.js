@@ -326,14 +326,15 @@
         scrollAnimate();
         $('.internal > a').on('click', function(event) {
             event.preventDefault();
-            console.log( $('body').find($(this).attr('href')).length );
-            var $anchor = $(this),
-                $section = $($anchor.attr('href')).offset().top,
-                $position = $section - $offset_section;
-            $('html, body').stop().animate({
-                scrollTop: $position
-            }, 1500, 'easeInOutExpo');
-            return false;
+            if( $('body').find($(this).attr('href')).length > 0) {
+                var $anchor = $(this),
+                    $section = $($anchor.attr('href')).offset().top,
+                    $position = $section - $offset_section;
+                $('html, body').stop().animate({
+                    scrollTop: $position
+                }, 1500, 'easeInOutExpo');
+                return false;
+            }
         });
 
         // Activated Navigation

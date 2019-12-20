@@ -325,8 +325,8 @@
         // Animation Scrollspy
         scrollAnimate();
         $('.internal > a').on('click', function(event) {
-            event.preventDefault();
             if( $('body').find($(this).attr('href')).length > 0) {
+                event.preventDefault();
                 var $anchor = $(this),
                     $section = $($anchor.attr('href')).offset().top,
                     $position = $section - $offset_section;

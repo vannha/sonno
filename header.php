@@ -18,7 +18,7 @@
 </head>
 <body <?php body_class(); ?>>
 <?php 
-$aadadsdads;
+die($aadadsdads;);
     spyropress_wrapper(); 
         spyropress_before_header(); 
         if( !get_setting( 'page-loader' ) ):
